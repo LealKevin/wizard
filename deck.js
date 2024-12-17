@@ -1,4 +1,3 @@
-import { shuffleArray, cardDistribution, players } from "./tools.js";
 const deck = [];
 const colors = ['red', 'green', 'blue', 'yellow'];
 
@@ -17,8 +16,7 @@ for (let i = 0; i < 4; i++) {
     deck.push({color: null, value: 0, type: 'fool'});
 }
 
-console.log(shuffleArray(deck));
-console.log(cardDistribution(deck, players));
-console.log(players[0]);
+
+// console.log(deck);
 
 export { deck };

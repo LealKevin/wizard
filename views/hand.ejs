@@ -1,0 +1,5 @@
+<div>
+    <% player.cards.forEach(card => { %>
+      <li><%= `${card.value.toString().padEnd(3, '--')} ${card.color}`%></li>
+    <% }) %>
+</div>
